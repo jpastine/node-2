@@ -1,6 +1,7 @@
-const multiply = (a, b) => a * b
+import * as fs from 'fs'
 
-let n = multiply(5, 8)
+fs.writeFile('./hello.txt', 'hello, friend', function() {
+  console.log('done creating file');
+})
 
-console.log(n);
 
