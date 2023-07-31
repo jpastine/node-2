@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jpastine/node-2/issues"
   },
-  "homepage": "https://github.com/jpastine/node-2#readme"
+  "homepage": "https://github.com/jpastine/node-2#readme",
+  "dependencies": {
+    "validator": "^13.9.0"
+  }
 }
