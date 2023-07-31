@@ -1,7 +1,5 @@
-import * as fs from 'fs'
+import * as daysOfTheWeek from './days-of-the-week.mjs'
 
-fs.writeFile('./hello.txt', 'hello, friend', function() {
-  console.log('done creating file');
-})
+console.log(daysOfTheWeek.saturday.weekday);
 
 

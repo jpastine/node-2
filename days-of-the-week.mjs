@@ -18,9 +18,8 @@ const saturday = {
 
 function randomDay() {
   return daysOfTheWeek[Math.floor(Math.random() * daysOfTheWeek.length)]
-  
 }
-
+  
 console.log(daysOfTheWeek)
 
 export {
